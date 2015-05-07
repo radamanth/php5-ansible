@@ -3,6 +3,11 @@
 - name: Update apt
   apt: update_cache=yes
 
+- name: Install php5
+  apt: name={{ item }} state=installed
+  with_items:
+   - apache2
+
 - name: Install php5 
   apt: name={{ item }} state=installed
   with_items:
