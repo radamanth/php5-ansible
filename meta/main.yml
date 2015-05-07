@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Tony Deboschere 
-  description: Ansible lover
+  description: Small role to install php5
   company: www.neovia.fr
   license: GPLv2
   min_ansible_version: 1.6
